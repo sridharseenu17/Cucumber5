@@ -1,0 +1,227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Checking the functionality of the Adactin application",
+        "description": "",
+        "id": "verifying-the-adactin-application;checking-the-functionality-of-the-adactin-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11570822114,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in the Adactin webpage",
+            "match": {
+              "location": "StepDefinitionClass5.user_is_in_the_Adactin_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 305326358,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the userName and password",
+            "match": {
+              "location": "StepDefinitionClass5.user_enter_the_userName_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "SridharGS"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "zxcvbnm"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4430368424,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click the login button",
+            "match": {
+              "location": "StepDefinitionClass5.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 680265116,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is in search hotel page and user should select location, hotels, room type and number of rooms",
+            "match": {
+              "location": "StepDefinitionClass5.user_is_in_search_hotel_page_and_user_should_select_location_hotels_room_type_and_number_of_rooms()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242050166,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should mention the \"02/09/2020\" and \"03/08/2020\" date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"02/09/2020\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"03/08/2020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitionClass5.user_should_mention_the_and_date(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217142332,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should select Adults per room and Children per room",
+            "match": {
+              "location": "StepDefinitionClass5.user_should_select_Adults_per_room_and_Children_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721498003,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should click the search button",
+            "match": {
+              "location": "StepDefinitionClass5.user_should_click_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98552071,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is in select hotel page and user should select the hotel",
+            "match": {
+              "location": "StepDefinitionClass5.user_is_in_select_hotel_page_and_user_should_select_the_hotel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 735765004,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "StepDefinitionClass5.user_should_click_the_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 459495534,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is in book a hotel page and User should enter \"Sridhar\", \"G S\", \"Chennai\" and \"1234567891012345\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sridhar\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"G S\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"1234567891012345\"",
+                  "offset": 83
+                }
+              ],
+              "location": "StepDefinitionClass5.user_is_in_book_a_hotel_page_and_User_should_enter_and(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 479817854,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should Select credit card type and expiry details.",
+            "match": {
+              "location": "StepDefinitionClass5.user_should_Select_credit_card_type_and_expiry_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117661707,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter the \"007\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"007\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionClass5.user_enter_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1087465058,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should click book now button.",
+            "match": {
+              "location": "StepDefinitionClass5.user_should_click_book_now_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the Adactin application",
+    "description": "",
+    "id": "verifying-the-adactin-application",
+    "keyword": "Feature",
+    "uri": "D:/Eclipse/Cucumber5/src/test/resources/Features/Adactin5.feature",
+    "tags": []
+  }
+]
